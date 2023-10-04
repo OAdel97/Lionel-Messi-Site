@@ -1,0 +1,890 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/******************************************************  Section 1 ***************************************************************/
+
+
+.firstcontent{
+    background-image: url(../images/messi-4k-ultra-hd.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.Header{
+    background-color: transparent;
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
+}
+.Header img {
+    margin: 0px 0px 0px 160px;
+    height: 120px;
+    width: 180px;
+    border-radius: 15px;
+}
+.headerul{
+    margin-left: 25px;
+    list-style: none;
+    margin-top: 90px;
+}
+.headerli a{
+    color: white;
+    font-size: 30px;
+    line-height: 34px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-decoration: none;
+}
+.headerli{
+    display: inline-block;
+}
+.imgdiv{
+    float: left;
+}
+.uldiv{
+    float: right;
+    margin-right: 100px;
+    word-spacing: 17px;
+    margin-top: -35px;
+}
+.headera:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+.heading{
+    margin-top: 240px;
+    margin-left: 1300px;
+    text-align: center;
+}
+.headingh1{
+    color: white;
+    font-size: 60px;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.headingp{
+    color: white;
+    font-size: 24px;
+    margin-top: 25px;
+}
+.btn{
+    margin-top: 39px;
+    padding: 25px;
+    margin-right: 15px;
+    font-size: 25px;
+    border-radius: 14px;
+}
+.btn2{
+    background-color: blue;
+    color: white;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    outline: 3px solid white;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    outline: 3px solid white;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/******************************************************** Section 2 ****************************************************************/
+.webheader{
+    margin-top: 120px;
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.webline{
+    background-color: rgb(52, 52, 197);
+    height: 6px;
+    width: 160px;
+    margin: auto;
+    margin-top: 10px;
+}
+.websitesection{
+    text-align: center;
+}
+.webfloat1{
+    border: 3px solid black;
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 60px;
+    outline: 5px solid black;
+    outline-offset: 4px;
+    float: left;
+    width: 30%;
+    margin-left: 30px;
+    position: relative;
+}
+.fa-readme{
+    font-size: 60px;
+}
+.webh3{
+    margin-top: 11px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+.webp{
+    margin-top: 36px;
+    font-size: 23px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.weba{
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+    font-weight: 600;
+}
+.webfloat{
+    overflow: auto;
+   }
+.webfloat2{
+    margin: 60px 45px 0px 45px;
+}
+.Generalicon{
+    font-size: 60px;
+
+}
+.webfloat1::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transition: 0.6s;
+    opacity: 0;
+    z-index: -1;
+}
+.webfloat1:hover::after{
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+
+}
+.webfloat1:hover .Generalicon{
+    color: white;
+}
+.webfloat1:hover .webp{
+    color: white;
+}
+.webfloat1:hover .weba{
+    color: white;
+}
+.messiclubs{
+    background-color: rgb(188, 219, 251);
+    margin-top: 130px;
+}
+.space{
+    padding-top: 30px;
+}
+.clubimg{
+    width: 450px;
+    height: 450px;
+    width: 100%;
+    border-radius: 20px;
+}
+.clubsparent{
+    overflow: auto;
+}
+.clubsitems{
+    margin-top: 50px;
+    float: left;
+    width: 30%;
+    text-align: center;
+    position: relative;
+}
+.clubmid{
+    margin: 50px 5% 0px 5%;
+}
+.club4th{
+    margin-left: 200px;
+    margin-top: 90px;
+}
+.club5th{
+    margin-left: 5%;
+    margin-top: 90px;
+}
+.clubh3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 27px;
+    margin-top: 110px;
+    transition: 2s;
+}
+.clubp{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-top: 20px;
+    transition: 3s;
+}
+.clubicon{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-left: 21px;
+    background-color: rgb(238, 127, 244);
+    padding: 15px;
+    border-radius: 10px;
+}
+.cluboverlay{
+    position: absolute;
+    top: 0;
+    background-color: rgb(79, 77, 77, 0.6);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 25px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    border: 3px solid  rgb(79, 77, 77, 0.6) ;
+    outline: 3px solid  rgb(79, 77, 77, 0.6);
+    outline-offset: 15px;
+}
+.clubsitems:hover .cluboverlay{
+    opacity: 1;
+    visibility: visible;
+} 
+.clubsitems:hover .clubh3{
+    color: white;
+    font-weight: 800;
+}
+.clubsitems:hover .clubp{
+    color: white;
+    font-weight: 800;
+
+}
+.clubsitems:hover .clubicon{
+    background-color: rgb(3, 3, 81);
+    color: white;
+}
+
+/*********************************************************** Section 4 ************************************************************/
+
+
+.goalsparent{
+    overflow: auto;
+}
+.goalsson{
+    background-color: red;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/MESSI-MIAMI.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 80px;
+    float: left;
+    width: 40%;
+    text-align: center;
+    position: relative;
+}
+.goalsson::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgba(7, 7, 7);
+    border-radius: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    z-index: -1;
+}
+.goalsson:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+    z-index: -1;
+}
+
+.goalsmid{
+    margin-left: 5%;
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/30\ messi.webp);
+    background-size: cover;
+    border-radius: 15px;
+}
+.goals3rd{
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/10\ messi.webp);
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.goals4th{
+    width: 600px;
+    height: 400px;
+    background-image: url(../images/argentina\ messi.webp);
+    background-size: cover;
+    border-radius: 15px;
+}
+.goals1st{
+    margin-left: 100px;
+}
+.crowny{
+    color: white;
+    margin-top: 70px;
+    font-size: 40px;
+}
+.goalsh3{
+    color: white;
+    margin-top: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.goalsp{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 27px;
+}
+
+ /*******************************************************   5th section *************************************************************/
+
+.achivline{
+    margin-top: 240px;
+    margin-left: -850px;
+    height: 400px;
+    position: relative;
+}                 
+.goatimg{
+    width: 120px;
+    height: 140px;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: -440px;
+}                                
+.goath2{
+    padding-top: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.barcah4{
+    margin-top: 90px;
+    font-size: 45px;
+}
+.paris{
+    background-color: black;
+}
+.Miam{
+    background-color: rgb(250, 117, 179);
+}
+.arg{
+    background-color: rgb(2, 175, 175);
+}
+.check{
+    margin-top: 18px;
+    margin-left: -240px;
+    
+}
+.FCB{
+    position: relative;
+    width: 100%;
+}
+.barcaicon{
+    position: absolute;
+    margin-left: -220px;
+    margin-top: 14px;
+    font-size: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+
+}
+.barcap{
+    line-height: 55px;
+    font-size: 27px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.PSGline{
+    background-color: black;
+}
+.IMline{
+    background-color: rgb(254, 181, 193);
+}
+.AGNline{
+    background-color: rgb(0, 153, 255);
+}
+.psgicon{
+    position: absolute;
+    margin-left: -220px;
+    margin-top: 14px;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+
+}
+.miamiicn{
+    position: absolute;
+    margin-left: -220px;
+    margin-top: 14px;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+}
+.AGNicon{
+    position: absolute;
+    margin-left: -220px;
+    margin-top: 14px;
+    font-size: 30px;
+    background-color: rgb(0, 153, 255);
+    border-radius: 50%;
+    color: white;
+}
+.Barline{
+    width: 380px;
+}
+.messiachiv{
+    background-color: rgb(235, 232, 232);
+    height: 1500px;
+}
+.goatball{
+    border-radius: 35px;
+
+}
+.goatcontainer{
+    position: relative;
+}
+.Goatpics{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 95px;
+    opacity: 1;
+    visibility: visible;
+    transition: 2s;
+}
+.worldcup{
+    width: 750px;
+    height: 600px;
+    margin-top: 50px;
+    border: 4px solid rgb(0, 153, 255);
+    outline: 4px solid rgb(0, 153, 255);
+    outline-offset: 5px;
+}
+.leoul{
+    list-style: none;
+}
+.leoli{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.leoli:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.goatcontainer:hover .Goatpics{
+    opacity: 1;
+    visibility: visible;
+}
+
+/*********************************************************** 6th section ***********************************************************/
+
+.section6{
+    background-image: url(../images/coveretos.jpg);
+    background-color: red;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    position: relative;
+}
+.sectionoverlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+.sec6parent{
+    overflow: auto;
+}
+.sec6items{
+    text-align: center;
+    width: 400px;
+    margin-top: 150px;
+    float: left;
+}
+.sec6img{
+    width: 100px;
+    height: 100px;
+}
+.sec6h3{
+    color: white;
+    margin-top: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.sec6p{
+    color: white;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/************************************************** section 7 ***********************************************************************/
+
+.section7{
+    background-color: rgb(213, 211, 211);
+}
+.sec7container{
+    margin-top: 100px;
+}
+.sec7parent{
+    overflow: auto;
+}
+.sec7items{
+    width: 400px;
+    border: 3px solid black;
+    outline: 4px solid rgb(0, 22, 88);
+    outline-offset: 8px;
+    text-align: center;
+    padding: 35px;
+    position: relative;
+    z-index: 10;
+    float: left;
+    width: 30%;
+    text-align: center;
+
+}
+.sec7mid{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.sec7items::after{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0%;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(104, 104, 255);
+
+    transition: 0.5s;
+    z-index: -1;
+
+}
+.sec7items:hover::after{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+.sec7h3{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sec7h4{
+    margin-top: 45px;
+    font-size: 35px ;
+    border: 3px solid blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 80px;
+    margin-left: 120px;
+}
+.sec7items:hover .sec7h4{
+    border: 3px solid white;
+}
+.sec7p{
+    margin-top: 40px;
+    font-size: 29px;
+    line-height: 45px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgb(43, 43, 43);
+
+
+}
+.sec7items:hover .sec7p{
+    color: white;
+}
+.sec7btn{
+    margin-top: 60px;
+    padding: 25px 40px;
+    font-size: 28px;
+    border-radius: 15px;
+    position: relative;
+    border: none;
+    z-index: 10;
+    margin-left: 25px;
+
+}
+.sec7btn::after{
+    position: absolute;
+    content: "";
+
+    width: 0%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    border-radius: 15px;
+
+    transition: 0.5s;
+    z-index: -1;
+
+}
+.sec7btn:hover::after{
+    width: 100%;
+    height: 100%;
+}
+.sec7btn:hover{
+    color: white;
+}
+
+/***********************************************************  Section 8 ************************************************************/
+
+.opinions{
+    background-image: url(../images/opin.jpg);
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.opinoverlay{
+    position: absolute;
+    background-color: rgb(17, 16, 16, 0.8);
+    width: 100%;
+    height: 100%;
+
+}
+.opinparent{
+    overflow: auto;
+}
+.opinitem{
+    width: 1200px;
+    height: 500px;
+    padding-left: 195px;
+    position: relative;
+    padding-top: 190px;
+    color: white;
+    float: left;
+    width: 50%;
+}
+.opinimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 160px;
+    margin-left: 25px;
+
+}
+.opinimg2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.opinh3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.opinh4{
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.opinp{
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 26px;
+}
+.opinparent:hover .opinimg2{
+    outline: 4px solid white;
+    outline-offset: 8px;
+}
+
+/******************************************************* Section 9 *****************************************************************/
+
+.teammatesparent{
+    overflow: auto;
+}
+.teammatesitem{
+    border: 4px solid black;
+    margin-top: 80px;
+    width: 500px;
+    padding-left: 18px;
+    padding-bottom: 40px;
+    position: relative;
+    float: left;
+}
+.xavimid{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.teammatesitem::after{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0%;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(112, 111, 111, 0.5);
+    transition: 1s;
+    z-index: -1;
+}
+.teammatesitem:hover::after{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.teammatesitem::before{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0%;
+
+    bottom: 0;
+    left: 0;
+
+    background-color: rgb(112, 111, 111, 0.5);
+    transition: 1s;
+    z-index: -1;
+}
+.teammatesitem:hover::before{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.mateimg2{
+    width: 450px;
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    
+}
+.matesimg{
+    width: 460px;
+    position: relative;
+    
+}
+.matesicon{
+    position: absolute;
+    top: 0;
+    background-color: rgb(27, 27, 27, 0.4);
+    width: 100%;
+    height: 100%;
+    line-height: 41px;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 100px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+
+}
+.matesimg:hover .matesicon{
+    opacity: 1;
+    visibility: visible;
+}
+.mateicon{
+    color: white;
+    padding-left: 15px;
+    margin-left: 380px;
+    font-size: 35px;
+    padding: 15px;
+    
+}
+.iconface{
+    margin-top: 90px;
+}
+.matesh3{
+    margin-left: 140px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: blue;
+}
+.matesh4{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+.teammatesitem:hover .matesh3{
+    color: white;
+}
+
+/******************************************************  Last Section **************************************************************/
+
+.lastsec{
+    background-color: rgb(221, 221, 221);
+    width: 100vw;
+    height: 550px;
+    margin-top: 90px;
+}
+.lastsecimg{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 4px solid black;
+    outline: 4px solid black;
+}
+.lastsecdiv{
+    text-align: center;
+}
+.lastsecicon{
+    margin-top: 40px;
+    font-size: 50px;
+    margin-left: 19px;
+    padding: 11px;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.5s;
+    
+}
+.lastp{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.iconlast{
+    color: black;
+}
+.lastsecicon:hover{
+    padding: 15px;
+}
